@@ -1,11 +1,16 @@
 body {
     background-color: grey;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size:1550px 1150px;
+    background-repeat:no-repeat;
     background-position: center center;
     color: white;
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0);
     font-family: "Palatino", "Book Antiqua", serif;
+    background-image: url(/img/High_resolution_wallpaper_background_ID_77701422463.jpg)
+   
+
+    
+
 }
 
 #intro {
@@ -21,10 +26,10 @@ p {
     font-size: 1em;
     letter-spacing: 2px;
     overflow: hidden;
-    background: linear-gradient(90deg, #000, #fff, #000);
+    background: linear-gradient(90deg, rgb(231, 129, 13), rgb(153, 204, 14), rgb(235, 0, 0));
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 3s linear infinite;
+    animation: animate 15s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
     text-align: center;
@@ -38,6 +43,7 @@ p {
       background-position: 500%;
     }
   }
+
 
 #weatherContainer {
     background-color: rgba(0, 0, 0, 0.25);
@@ -64,11 +70,12 @@ p {
     color: white;
     width: 75px;
 }
-.searchControl {
-    box-shadow: 2px 2px 5px skyblue;
+.searchControl{
+    box-shadow: 2px 2px 2px skyblue;
     border: none;
     border-radius: 5px;
     padding: 8px;
+    
 }
 @media (min-width: 768px) {
 
