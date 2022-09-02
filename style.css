@@ -7,6 +7,7 @@ body {
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0);
     font-family: "Palatino", "Book Antiqua", serif;
     background-image: url(/img/High_resolution_wallpaper_background_ID_77701422463.jpg)
+    
    
 
     
@@ -29,7 +30,7 @@ p {
     background: linear-gradient(90deg, rgb(231, 129, 13), rgb(153, 204, 14), rgb(235, 0, 0));
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 15s linear infinite;
+    animation: animate 10s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
     text-align: center;
