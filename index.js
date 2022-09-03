@@ -1,6 +1,6 @@
 let appId = '71f6779186cc32448b4c412eea65b982';
 let units = 'metric'; 
-// let searchMethod; 
+let searchMethod; 
 
 function getSearchMethod(searchTerm) {
     if(searchTerm.length === 5 && Number.parseInt(searchTerm) + '' === searchTerm)
