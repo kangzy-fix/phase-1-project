@@ -1,6 +1,6 @@
 body {
     background-color: grey;
-    background-size:cover;
+    background-size:1800px 1500px;
     background-repeat:no-repeat;
     background-position: center center;
     color: white;
@@ -50,6 +50,7 @@ p {
     width: auto;
     border-radius: 10px;
     visibility: hidden;
+    background-image: url(/img/Live-Weather-Wallpaper-Apps.jpg);
 }
 #weatherContainer h1 {
     margin: 5px;
